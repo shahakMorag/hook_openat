@@ -1,4 +1,4 @@
-obj-m += change_favourite_animal.o
+obj-m += change_openat_function.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
