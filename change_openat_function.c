@@ -1,4 +1,3 @@
-#include <linux/fs.h>
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
@@ -6,9 +5,7 @@
 #include <linux/printk.h>
 #include <linux/unistd.h>
 #include <linux/uaccess.h>
-#include <linux/syscalls.h>
 #include <linux/kallsyms.h>
-#include <linux/set_memory.h>
 
 #define PATH_TO_REPLACE ("favourite_animal1")
 #define ALTERNATIVE_PATH ("favourite_animal2")
